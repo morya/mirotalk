@@ -24,7 +24,6 @@ jobs:
           registry: registry.cn-wulanchabu.aliyuncs.com
           username: ${{ secrets.MY_DOCKER_USERNAME }}
           password: ${{ secrets.MY_DOCKER_TOKEN }}
-          logout: false
 
       - name: Build and publish
         uses: docker/build-push-action@v3
