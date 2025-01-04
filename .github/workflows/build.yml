@@ -33,4 +33,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: mirotalk/p2p:latest
+          tags: registry.cn-wulanchabu.aliyuncs.com/gouboyun/mirotalk-p2p:latest
